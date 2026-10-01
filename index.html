@@ -59,8 +59,8 @@
 <section id="studio" class="studioPage">
 <button class="back" onclick="closeStudio()">← Back to shopping</button>
 <div class="eyebrow">Shopping assistant</div><h1 style="font-size:48px;margin-bottom:10px">AI Fashion Studio</h1><p class="sub">Describe what you are looking for and we’ll help you discover purchasable products.</p>
-<div class="uploadedPhotos"><div><b>Your uploaded photos</b><span>Use your own photos inside AI Studio to visualise different looks.</span></div><div class="photoThumbs"><img src="https://d2ol7oe51mr4n9.cloudfront.net/user_38W4pc5M7h90eugnaQfIaEFre6e/dc22bfc0-0f4f-4faf-b4de-105d63d58e47.png" alt="Uploaded photo 3"></div></div><div class="studioBox">
-<div class="prompt"><input id="prompt" value="Casual date outfit under ₹3,000, oversized shirt, sneakers, earth tones"><button class="orange" onclick="generate()">Find looks</button></div>
+<div class="studioBox">
+<div class="prompt"><input id="prompt" value="" placeholder="Describe what you want — occasion, style, colour or budget..."><button class="orange" onclick="generate()">Find looks</button></div>
 <div class="size"><b>Select size:</b><button onclick="setSize(this,'S')">S</button><button onclick="setSize(this,'M')">M</button><button onclick="setSize(this,'L')">L</button><button onclick="setSize(this,'XL')">XL</button><span id="sizeText" style="font-size:12px;color:#777">Choose a size to check availability.</span></div>
 <div class="studioTools"><button class="tool">Colour ▾</button><button class="tool">Price ▾</button><button class="tool">Occasion ▾</button><button class="tool">Size guide</button><button class="tool">＋ Upload photo</button><span class="tool">Virtual try-on · Coming later</span></div>
 <div class="demo"><span><b>Demo mode:</b> reveal the inventory decision behind each look.</span><button id="toggle" class="toggle" onclick="demoMode()"></button></div>
